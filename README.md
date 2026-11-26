@@ -15,7 +15,6 @@ AWS IoT CoreからIoT Gatewayを経由したBLEデバイスの操作、及びEve
 ## システム構成
 | 分類              | 使用技術                      |
 | ----------------- | ----------------------------- |
-| クラウド          | AWS                           |
 | API               | Amazon API Gateway/AWS Lambda |
 | データベース      | Amazon DynamoDB               |
 | スケジューリング  | Amazon EventBridge Scheduler  |
@@ -23,6 +22,9 @@ AWS IoT CoreからIoT Gatewayを経由したBLEデバイスの操作、及びEve
 | 近距離通信        | Bluetooth Low Energy          |
 | Gateway/Device    | ESP32/C++                     |
 | スマホアプリ      | Flutter/Dart                  |
+
+<img width="1163" height="1129" alt="AsumO_architecture" src="https://github.com/user-attachments/assets/e1e8c152-edb8-4a7c-8fbb-c048f84ac529" />
+
 
 ## アーキテクチャ構成図
 
