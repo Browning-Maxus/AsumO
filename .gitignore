@@ -1,0 +1,58 @@
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+**/credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+dart_defines.json
+env.dev.json
+env.prod.json
+
+# AWS / IoT provisioning
+nvs_secrets.bin
+nvs_keys.bin
+*-certificate.pem.crt
+*-private.pem.key
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+coverage/
+
+# ESP-IDF / C++
+sdkconfig.old
+managed_components/
+*.elf
+*.map
+*.bin
+
+# Python / Lambda
+__pycache__/
+.venv/
+*.pyc
+.pytest_cache/
+
+# Local data and logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor / OS
+.idea/
+.DS_Store
+Thumbs.db
